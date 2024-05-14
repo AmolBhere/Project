@@ -1,0 +1,78 @@
+#root {
+  max-width: 1400px;
+  margin: 0.5rem auto;
+  padding: 1rem 7rem;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+}
+
+body{
+  background-color: white;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #ffffff;
+}
+
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 70px;
+}
+
+p{
+  font-size: larger;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.profile-image {
+  width: 200px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.user-details {
+  flex-grow: 1;
+}
+
+.user-name {
+  display: flex;
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: 30px;
+}
+
+.phone-number {
+  color: #ffffff;
+}
+
+.loading-message {
+  margin-top: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.end-message {
+  margin-top: 20px;
+  text-align: center;
+  color: #ffffff;
+}
